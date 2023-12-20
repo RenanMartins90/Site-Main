@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logo img {
+  max-width: 150px;
+}
+.bgHeader {
+  background-color: #fff;
+  color: #000;
+  padding-bottom: 2rem;
+}
+.header {
+  justify-content: space-between;
+  padding: 2rem 3rem 0;
+  align-items: baseline;
+}
+.search {
+  gap: 3rem;
+}
+.form {
+  display: flex;
+}
+.form input {
+  background: none;
+  border: 1px solid #fa2158;
+  color: #000;
+  padding-left: 0.4rem;
+  border-radius: 4px;
+  height: 2rem;
+}
+.form button {
+  background: none;
+  border: 1px solid #fa2158;
+  border-radius: 4px;
+  border-left: none;
+  height: 2rem;
+  transition: all 0.4s ease;
+}
+.form button i {
+  color: #000;
+}
+.form button:hover {
+  background-color: #fa2158;
+}
+
+.login {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.4s ease;
+}
+.login:hover {
+  color: #fa2158;
+}
+.main {
+  background-color: #e6e6e6;
+  flex-grow: 1;
+  padding-top: 2rem;
+}
+.main iframe {
+  padding: 3rem;
+  width: 100%;
+  min-height: 85vh;
+}
+.bgContact {
+  background-color: #201f1f;
+  padding-bottom: 6rem;
+}
+.formDiv {
+  padding-top: 5rem;
+  flex-direction: column;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+.contact input {
+  padding-left: 0.6rem;
+  font-size: 0.8rem;
+  color: #4a4747;
+  font-weight: 300;
+}
+.contact input:focus {
+  outline: 0px solid #fa2158;
+  border: 2px solid #fa2158;
+  border-radius: 4px;
+}
+.contact input,
+.contact button {
+  height: 4rem;
+  width: 50%;
+}
+.btnContact {
+  letter-spacing: 5px;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: #fa2158;
+  border: none;
+  transition: all 0.4s ease;
+}
+.btnContact:hover {
+  background-color: #fff;
+  color: #fa2158;
+}
+footer {
+  background-color: #201f1f;
+  color: #fff;
+}
+.footer {
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+.nav-link {
+  color: #ffffff;
+  transition: all 0.2s ease;
+}
+.nav-link:hover {
+  color: #fa2158;
+}
+.icons {
+  display: flex;
+  gap: 1rem;
+}
+.icons a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  transition: all 0.3s ease;
+}
+.icons a:hover {
+  color: #fa2158;
+}
+
+.end {
+  gap: 4rem;
+  align-items: center;
+}
